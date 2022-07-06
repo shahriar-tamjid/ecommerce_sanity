@@ -24,7 +24,7 @@ const Cart = () => {
 
   const handleCheckout = () => {
     return window.location.assign(
-      'https://shahriar-tamjid.github.io/demo-checkout-page/'
+      'https://ecommerce-sanity-beige.vercel.app/success'
     );
   };
 
@@ -114,7 +114,7 @@ const Cart = () => {
             </div>
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
-                Pay Now
+                Buy Now
               </button>
             </div>
           </div>
