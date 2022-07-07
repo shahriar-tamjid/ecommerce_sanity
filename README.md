@@ -18,17 +18,31 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+# About Project
 
-To learn more about Next.js, take a look at the following resources:
+## Title: Modern Full Stack E-Commerce Application with Next.js & Sanity
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**This project was built with Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Live Demo for this Project - https://ecommerce-sanity-beige.vercel.app/
 
-## Deploy on Vercel
+While building this project I've learned:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Advanced React Best Practices such as
+  - Folder and file structure, hooks and refs
+- Advanced State Management of the entire application using React Context API
+- Next.js Best Practices such as
+  - File-based routing, Data fetching that allows server-side rendering and static generation which makes our websites incredibly optimized (show getServerSideProps, getStaticPaths, getStaticProps), and I've also learned how to use Next.js as a backend endpoint.
+- And most importantly I've learned how to manage the entire content of the app using Sanity. Sanity is the unified content platform that’ll make the making of our entire app possible. <show sanity desk>
+- Through Sanity, we or our clients will be able to change the store’s homepage and more importantly, the details of all the products in the store, instantly and on the go!
+- Sanity allows us to focus on developing the application without having to worry about the content, file storage, and databases. They’ll cover the dirty work for us and allow us to build scalable and modern e-commerce web applications extremely easily.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Here are some sample screenshots of the project
+
+![image](/public/screenshots/header.PNG)
+![image](/public/screenshots/body.PNG)
+![image](/public/screenshots/footer.PNG)
+![image](/public/screenshots/product.PNG)
+![image](/public/screenshots/marquee.PNG)
+![image](/public/screenshots/cart.PNG)
+![image](/public/screenshots/success.PNG)
